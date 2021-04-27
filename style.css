@@ -1,0 +1,118 @@
+header{
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 40px;
+    background-color: black;
+}
+header img{
+    float:left;
+}
+header ul{
+    clear: both;
+    float:left;
+    background-color: black;
+    position: relative;
+    left: 50px;
+    line-height: 20px
+}
+header ul li{
+    float: left;
+    width: 200px;
+    list-style:none;
+    color: white;
+    podding-right: 20px;
+}
+
+.main-panel{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.main-panel .left{
+    float:left;
+    width:70%;
+    margin-bottom: 50px;
+}
+.main-panel .left h1{
+    border-left: 5px solid black;
+    border-bottom: 3px solid black;
+    padding-left: 10px;
+}
+.bookstore-image{
+    width: 100%;
+}
+.main-panel .right{
+    float:right;
+    width:25%;
+    margin-left: 5%;
+}
+.main-panel .right h1{
+    border-bottom: 3px dotted black;
+}
+.main-panel .right li{
+    list-style: none;
+    padding-bottom: 15px;  
+}
+.imagelist{
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+}
+.imagelist img{
+    width:100%;
+    height: auto;
+    margin:5% 1% 0% 1%;
+}
+.imagelist .image{
+    display: inline-block;
+    width: 23%;
+}
+footer{
+    text-align: center;
+    clear: both;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+/*追加分*/
+.submit{
+    padding: 4px 10px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom: solid black 2px ;
+}
+.formbox{
+    margin-bottom: 20px;
+}
+.formbox,.kiji{   
+    margin-top: 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+.formbox h2{
+    margin-left:10px;
+    margin-top: : 30px;
+    margin-bottom: 20px;
+    border-left: 4px red solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 500px;
+    font-size: 20px;
+}
+h3{
+    border-bottom: 2px dotted gray;
+}
+.handlename{
+    margin-top: 15px;
+    font-size: 12px;
+}
